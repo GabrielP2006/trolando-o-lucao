@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body{
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p3/23526721-cubico-pixel-jogos-terra-blocos-fundo-padronizar-vetor.jpg);
+}
+
+.title{
+    color: #fff;
+    font-size: 160px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    font-family: 'Minecraft', sans-serif;
+    cursor: default;
+}
+
+.menu{
+    position: relative;
+    top: 80px;
+    padding-top: 60px;
+    width: max-content;
+    height: max-content;
+    transform: translateX(425px);
+}
+
+.menu button{
+    display: flex;  
+    padding-top: 8px;
+}
+
+.menu button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.bnt{
+    height: 45px;
+    width: 675px;
+    top: 30px;
+    background-color: #A9A9A9;
+    border: 2px solid #000;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    box-shadow: 3px 3px 2px black;
+}
+
+.bnt:hover{
+    background-color: #4F4F4F;
+    color: #A9A9A9;
+    box-shadow: 1px 1px 1px black;
+}
+
+.options{
+    display: grid;
+    width: max-content;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+}
+
+.bnt-2{
+    height: 45px;
+    width: calc(675px / 2);
+    background-color: #A9A9A9;
+    border: 2px solid #000;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    box-shadow: 3px 3px 2px black;
+}
+
+.bnt-2:hover{
+    background-color: #4F4F4F;
+    color: #A9A9A9;
+    box-shadow: 1px 1px 1px black;
+}
